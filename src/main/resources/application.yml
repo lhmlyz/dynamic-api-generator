@@ -1,0 +1,17 @@
+logging:
+  level:
+    root: error
+    com.github.lhmlyz: debug
+
+spring:
+  main:
+    banner-mode: off
+
+api:
+  group: com.github.lhmlyz
+  name: dynamicapigenerator
+  resource:
+    name: Bin
+    basePath: '"/cards-bin"'
+
+
